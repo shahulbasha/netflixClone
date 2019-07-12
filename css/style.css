@@ -105,6 +105,68 @@ img {
   font-weight: 400;
 }
 
+/* Tabs */
+
+.tabs {
+  border-top: 3px solid #3d3d3d;
+  padding-top: 1rem;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 70%;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.tabs p {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+}
+
+.tab-item {
+  padding-top: 20px;
+}
+
+.tab-item:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.tab-border {
+  border-bottom: 4px solid #e50914;
+}
+
+/* Tab content*/
+
+.tab-content {
+  padding: 3rem 0;
+}
+
+.tab-1-content-inner {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+}
+
+/* buttons */
 .btn {
   display: inline-block;
   padding: 10px 18px;

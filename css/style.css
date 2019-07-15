@@ -170,6 +170,13 @@ img {
   color: white;
 }
 
+.tab-content-item {
+  display: none;
+}
+
+.show {
+  display: block;
+}
 .tab-2-content-top {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -233,7 +240,7 @@ img {
 }
 .footer-cols {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -299,8 +306,6 @@ img {
   }
   .tab-2-content-bottom {
     grid-template-columns: 1fr;
-  }
-  .footer-cols {
   }
 
   .text-xl {
